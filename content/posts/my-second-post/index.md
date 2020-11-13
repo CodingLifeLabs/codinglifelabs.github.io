@@ -1,5 +1,5 @@
 ---
-title: Praesent second sed neque efficitur
+title: Second Blog Post
 description: Aliquam ultrices ex eget leo tincidunt
 date: 2020-06-26
 image: index.jpg

@@ -1,8 +1,11 @@
 <template>
   <div class="posts px-8">
-    <h1>Posts</h1>
+    <h1>All Posts</h1>
     <div class="mt-4 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
       <div v-for="post in posts" :key="post.dir">
+        <p class="text-gray-500 text-xs">
+          {{ formatDate(post.createdAt) }}
+        </p>
         <nuxt-link :to="post.dir">
           <h3 class="heading font-bold text-2xl">
             {{ post.title }}
@@ -31,13 +34,21 @@
 export default {
   async asyncData ({ params, error, $content }) {
     try {
-      const posts = await $content('posts', { deep: true }).fetch()
+      const posts = await $content('posts', { deep: true })
+        .sortBy('createdAt', 'desc')
+        .fetch()
       return { posts }
     } catch (err) {
       error({
         statusCode: 404,
         message: 'Page could not be found'
       })
+    }
+  },
+  methods: {
+    formatDate (date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     }
   },
   head () {

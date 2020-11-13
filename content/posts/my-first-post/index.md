@@ -1,5 +1,5 @@
 ---
-title: Praesent sed neque efficitur
+title: First Blog Post
 description: Aliquam ultrices ex eget leo tincidunt
 date: 2020-10-10
 img: image.jpg
