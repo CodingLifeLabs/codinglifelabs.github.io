@@ -1,6 +1,6 @@
 <template>
-  <div class="p-4 grid grid-cols-5 gap-8">
-    <aside ref="toc" class="col-span-1 lg:flex lg:flex-col">
+  <div class="p-4 grid md:grid-cols-5 gap-8">
+    <aside ref="toc" class="col-span-1 lg:flex lg:flex-col hidden md:block">
       <div class="sticky top-0">
         <h2
           class="uppercase text-black font-h2 text-xs lg:mt-16 tracking-wider"
@@ -35,7 +35,7 @@
         </nav>
       </div>
     </aside>
-    <div class="prose lg:prose-lg col-span-4">
+    <div class="prose lg:prose-lg md:col-span-4">
       <nuxt-content ref="nuxtContent" :document="post" />
     </div>
   </div>

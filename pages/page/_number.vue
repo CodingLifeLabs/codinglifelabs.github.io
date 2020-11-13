@@ -29,31 +29,39 @@
         </nuxt-link>
       </div>
     </div>
-    <section v-if="nextPage" id="next" class="text-center mt-8">
-      <nuxt-link to="/page/2" class="border p-2 rounded shadow">
+    <section id="prev-next" class="text-center mt-8">
+      <nuxt-link :to="prevLink" class="border p-2 rounded shadow mr-2">
+        Prev page
+      </nuxt-link>
+      <nuxt-link v-if="nextPage" :to="`/page/${pageNo + 1}`" class="border p-2 rounded shadow">
         Next page
       </nuxt-link>
     </section>
   </div>
 </template>
+
 <script>
 export default {
-  async asyncData ({ params, error, $content }) {
-    try {
-      const tenPosts = await $content('posts', { deep: true })
-        .only(['author', 'createdAt', 'description', 'dir', 'title'])
-        .sortBy('createdAt', 'desc')
-        .limit(10)
-        .fetch()
+  async asyncData ({ $content, params, error }) {
+    const pageNo = parseInt(params.number)
+    const tenPosts = await $content('posts', { deep: true })
+      .only(['author', 'createdAt', 'description', 'dir', 'title'])
+      .sortBy('createdAt', 'desc')
+      .limit(10)
+      .skip(9 * (pageNo - 1))
+      .fetch()
 
-      const nextPage = tenPosts.length === 10
-      const posts = nextPage ? tenPosts.slice(0, -1) : tenPosts
-      return { nextPage, posts }
-    } catch (err) {
-      error({
-        statusCode: 404,
-        message: 'Page could not be found'
-      })
+    if (!tenPosts.length) {
+      return error({ statusCode: 404, message: 'No posts found!' })
+    }
+
+    const nextPage = tenPosts.length === 10
+    const posts = nextPage ? tenPosts.slice(0, -1) : tenPosts
+    return { nextPage, posts, pageNo }
+  },
+  computed: {
+    prevLink () {
+      return this.pageNo === 2 ? '/' : `/page/${this.pageNo - 1}`
     }
   },
   methods: {
@@ -61,24 +69,10 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
-  },
-  head () {
-    return {
-      title: 'Nuxt blog',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Cool nuxt blog'
-        }
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://nuxt-blog.com/'
-        }
-      ]
-    }
   }
 }
 </script>
+
+<style>
+
+</style>
