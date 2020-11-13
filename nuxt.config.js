@@ -48,7 +48,13 @@ export default {
   axios: {},
 
   // Content module configuration (https://go.nuxtjs.dev/content-config)
-  content: {},
+  content: {
+    markdown: {
+      prism: {
+        theme: false,
+      }
+    }
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
