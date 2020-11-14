@@ -1,10 +1,10 @@
 <template>
-  <div class="posts px-8">
+  <div class="posts">
     <h1>All Posts</h1>
 
-    <div class="mt-4 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto">
       <div v-for="post in posts" :key="post.dir">
-        <p class="text-gray-500 text-xs">
+        <p class="text-gray-500 text-md font-hairline">
           {{ formatDate(post.createdAt) }}
         </p>
         <nuxt-link :to="post.dir">
@@ -13,7 +13,7 @@
           </h3>
         </nuxt-link>
 
-        <p>
+        <p class="text-lg text-gray-600">
           {{ post.description }}
         </p>
         <p class="tags">
@@ -23,7 +23,7 @@
           </span>
         </p>
         <nuxt-link :to="post.dir">
-          <p class="text-green-400 font-bold">
+          <p class="text-green-400 font-bold text-md">
             Read more
           </p>
         </nuxt-link>

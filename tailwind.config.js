@@ -8,5 +8,5 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("tailwindcss-markdown"),require("@tailwindcss/typography")],
 }

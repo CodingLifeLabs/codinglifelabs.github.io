@@ -1,12 +1,12 @@
 <template>
-  <div class="p-4 grid md:grid-cols-5 gap-8">
+  <div class="p-4 grid md:grid-cols-4 mx-auto gap-4">
     <aside ref="toc" class="col-span-1 lg:flex lg:flex-col hidden md:block">
-      <div class="sticky top-0">
-        <h2
-          class="uppercase text-black font-h2 text-xs lg:mt-16 tracking-wider"
+      <div class="sticky top-0 mt-16">
+        <p
+          class="uppercase text-gray-800 text-xs font-black tracking-wider"
         >
-          Table of contents
-        </h2>
+          contents
+        </p>
         <nav class="mt-4">
           <ul>
             <li
@@ -20,12 +20,12 @@
             >
               <nuxt-link
                 :class="{
-                  'text-red-500 hover:text-red-600':
+                  'text-black-500 hover:text-black-600':
                     link.id === currentlyActiveToc,
-                  'text-black hover:gray-900': link.id !== currentlyActiveToc
+                  'text-gray-500 hover:text-gray-700': link.id !== currentlyActiveToc
                 }"
                 role="button"
-                class="transition-colors duration-75 text-xs mb-2 block"
+                class="transition-colors duration-75 text-xs font-bold mb-2 block"
                 :to="`#${link.id}`"
               >
                 {{ link.text }}
@@ -35,7 +35,16 @@
         </nav>
       </div>
     </aside>
-    <div class="prose lg:prose-lg md:col-span-4">
+    <div class="md:col-span-3">
+      <h1 class="text-5xl font-bold">
+        {{ post.title }}
+      </h1>
+      <div class="mt-3 mb-16 uppercase text-sm text-gray-500">
+        <p class="mr-3">
+          {{ formatDate(post.updatedAt) }}
+        </p>
+      </div>
+
       <nuxt-content ref="nuxtContent" :document="post" />
     </div>
   </div>
@@ -91,6 +100,11 @@ export default {
   methods: {
     tableOfContentsHeadingClick (link) {
       this.currentlyActiveToc = link.id
+    },
+
+    formatDate (date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     }
   },
   head () {
@@ -113,3 +127,18 @@ export default {
   }
 }
 </script>
+
+<style>
+.nuxt-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.nuxt-content h2 {
+  font-weight: bold;
+  font-size: 38px;
+}
+.nuxt-content h3 {
+  font-weight: bold;
+  font-size: 32px;
+}
+</style>

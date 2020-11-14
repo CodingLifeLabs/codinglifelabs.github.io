@@ -1,6 +1,6 @@
 ---
 title: 4 Blog Post
-description: Aliquam ultrices ex eget leo tincidunt
+description: Aliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tincidunt
 date: 2020-10-10
 img: image.jpg
 alt: my first blog post

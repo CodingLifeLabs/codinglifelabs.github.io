@@ -32,8 +32,9 @@ p {
   box-sizing: border-box;
   margin: 0;
 }
-/* .wrapper {
+.wrapper {
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-} */
+}
 </style>
