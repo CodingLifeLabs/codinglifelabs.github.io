@@ -69,11 +69,6 @@ export default {
         }
       })
     }
-  },
-
-  generate: {
-    cache: {
-      ignore: ['content/posts'] // changes in the guides folder will not cause a re-build
-    }
   }
+
 }

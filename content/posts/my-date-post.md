@@ -1,6 +1,7 @@
 ---
-title: 4 Blog Post
-description: Aliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tincidunt
+title: My New date Test Post
+description: Aliquam ultrices ex eget leo tincidunt
+date: 2020-11-15
 img: image.jpg
 alt: my first blog post
 tags:
@@ -12,7 +13,6 @@ tags:
 
 Ut ut justo arcu. Praesent sed neque efficitur,
 venenatis diam mollis, lobortis erat. Praesent egetimperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-
 Ut ut justo arcu. Praesent sed neque efficitur,
 venenatis diam mollis, lobortis erat. Praesent eget
 imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
