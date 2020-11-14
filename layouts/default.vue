@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <nuxt-link class="logo" to="/">
-      CodingLifeLabs Blog
+      CodingLifeLabs
     </nuxt-link>
     <nuxt />
   </div>

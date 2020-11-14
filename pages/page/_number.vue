@@ -3,11 +3,11 @@
     <h1>All Posts</h1>
 
     <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto">
-      <div v-for="post in posts" :key="post.dir">
+      <div v-for="post in posts" :key="post.path">
         <p class="text-gray-500 text-md font-hairline">
           {{ formatDate(post.createdAt) }}
         </p>
-        <nuxt-link :to="post.dir">
+        <nuxt-link :to="post.path">
           <h3 class="heading font-bold text-2xl">
             {{ post.title }}
           </h3>
@@ -22,7 +22,7 @@
           &nbsp;
           </span>
         </p>
-        <nuxt-link :to="post.dir">
+        <nuxt-link :to="post.path">
           <p class="text-green-400 font-bold text-md">
             Read more
           </p>
@@ -45,7 +45,7 @@ export default {
   async asyncData ({ $content, params, error }) {
     const pageNo = parseInt(params.number)
     const tenPosts = await $content('posts', { deep: true })
-      .only(['author', 'createdAt', 'description', 'dir', 'title'])
+      .only(['createdAt', 'description', 'path', 'title'])
       .sortBy('createdAt', 'desc')
       .limit(10)
       .skip(9 * (pageNo - 1))

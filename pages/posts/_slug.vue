@@ -2,9 +2,7 @@
   <div class="p-4 grid md:grid-cols-4 mx-auto gap-4">
     <aside ref="toc" class="col-span-1 lg:flex lg:flex-col hidden md:block">
       <div class="sticky top-0 mt-16">
-        <p
-          class="uppercase text-gray-800 text-xs font-black tracking-wider"
-        >
+        <p class="uppercase text-gray-800 text-xs font-black tracking-wider">
           contents
         </p>
         <nav class="mt-4">
@@ -44,21 +42,28 @@
           {{ formatDate(post.updatedAt) }}
         </p>
       </div>
-
-      <nuxt-content ref="nuxtContent" :document="post" />
+      <article>
+        <nuxt-content ref="nuxtContent" :document="post" />
+      </article>
+      <!-- prevNext component -->
+      <PrevNext :prev="prev" :next="next" class="mt-8" />
     </div>
   </div>
 </template>
 <script>
 import Prism from '~/plugins/prism'
+
 export default {
   async asyncData ({ params, error, $content }) {
     try {
-      const postPath = `/posts/${params.slug}`
-      const [post] = await $content('posts', { deep: true })
-        .where({ dir: postPath })
+      const post = await $content('posts', params.slug).fetch()
+      const [next, prev] = await $content('posts')
+        .only(['title', 'slug'])
+        .sortBy('createdAt', 'asc')
+        .surround(params.slug)
         .fetch()
-      return { post }
+
+      return { post, prev, next }
     } catch (err) {
       error({
         statusCode: 404,
@@ -106,31 +111,13 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
-  },
-  head () {
-    return {
-      title: this.post.title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.post.description
-        }
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://codinglifelabs.github.io/' + this.post.dir
-        }
-      ]
-    }
   }
 }
 </script>
 
 <style>
 .nuxt-content p {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 .nuxt-content h2 {
