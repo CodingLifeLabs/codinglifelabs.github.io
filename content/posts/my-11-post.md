@@ -1,6 +1,6 @@
 ---
 title: 4 Blog Post
-description: Aliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo tincidunt
+description: 화이자 이어 모더나 "코로나백신 효과 94.5%…게임체인저 될 것"(종합)
 date: 2020-10-10
 img: image.jpg
 alt: my first blog post
@@ -11,176 +11,42 @@ tags:
 
 ## This is a heading
 
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent egetimperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
+(서울=연합뉴스) 김유아 기자 = 미국 제약회사 모더나가 개발 중인 신종 코로나바이러스 감염증(코로나19) 백신 후보의 예방률이 94.5%라는 중간결과가 16일(현지시간) 나왔다.
 
-```js[nuxt.config.js]
-export default {
-  nuxt: "is the best"
-};
-```
+이번 결과 발표는 백신 예방률이 90% 이상이라는 미 제약회사 화이자의 지난 9일 발표가 있은 지 일주일 만에 이뤄진 것이다.
 
-```html[my-first-blog-post.md]
-<p>code styling is easy</p>
-```
+모더나는 예비 분석 결과를 토대로 이같이 발표했다고 워싱턴포스트(WP), AP통신 등 미 언론이 16일 보도했다. 최종 임상 시험에는 3만여 명이 참여했다.
 
-This is some more info
+스테파네 방셀 모더나 최고경영자(CEO)는 "이번 3상 임상시험의 긍정적인 중간 분석 결과를 통해 우리가 개발한 백신 후보가 코로나19로부터 보호할 수 있음을 처음으로 검증한 것"이라고 밝혔다.
 
-## This is a sub heading
+그는 특히 "백신이 95%의 사람들로 하여금 병을 얻지 않도록 예방할 수 있다면 병원이나 사람들의 마음, 죽음에 대한 효과라는 측면에서 '게임 체인저'가 될 것"이라고 의미를 부여했다.
 
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
+앤서니 파우치 국립알레르기·전염병연구소(NIAID) 소장도 "이는 매우 좋은 소식"이라며 "데이터를 본다면 숫자가 그 자체로 말해준다"고 말했다.
 
-This is some more info
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
+그러면서 "나는 나 자신을 현실주의자로 묘사하고 있지만, 근본적으로는 신중한 낙관론자"라며 "나는 이보다는 덜한 무언가를 얻을 것이라고 생각했었다…나는 분명히 90% 이상의 효과가 있는 백신이 가능하다고 말했지만 이를 확신하진 않았다"고 덧붙였다.
 
-### This is another sub heading
+임상시험에 들어간 백신 후보물질의 효과는 코로나19에 감염된 시험 참가자 중 백신 후보물질을 접종한 사람과 가짜 약(플라시보)을 접종한 사람 비율로 측정된다.
 
-This is some more info
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
+이번 중간 조사 결과는 임상 시험 참여자 중 95건의 감염 사례에 기초한 것으로, 이들 사례 가운데 백신을 접종한 비율은 5건에 그쳤다. 90건의 발병은 플라시보를 접종한 경우였다.
 
-## This is another heading
+앞서 모더나는 지난 7월 27일 미국 89개 도시에서 코로나19 백신 후보물질 'mRNA-1273' 3상 시험에 착수했다.
 
-This is some more info
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
-Ut ut justo arcu. Praesent sed neque efficitur,
-venenatis diam mollis, lobortis erat. Praesent eget
-imperdiet odio, tincidunt eleifend mauris. Sed luctus lacinia auctor.
+시험 참가자는 3만명이며, 65세 이상 7천여명과 65세 미만이지만 고위험 만성질환이 있는 5천여명 등 '코로나19 고위험군'이 전체의 42%를 차지했다.
+
+이번 결과로 인해 이달 중 긴급사용승인 신청이 이뤄질 수 있을 것으로 보인다.
+
+모더나와 파우치 소장이 이끄는 NIAID는 코로나19 백신 개발을 위해 협업해 왔다.
+
+미 정부는 이미 모더나와 15억2천500만 달러(약 1조6천980억 원) 규모의 코로나19 백신 구매계약을 체결한 상태다.
+
+앞서 화이자는 지난 9일 독일 바이오엔테크와 함께 개발 중인 코로나19 백신 개발의 3상 임상시험에서 참가자 94명을 분석한 결과, 예방률이 90%를 넘는 것으로 나타났다고 발표한 바 있다.
+
+도널드 트럼프 미 대통령은 화이자의 백신 발표가 이뤄지자 트위터에 올린 글에서 "내가 이전부터 말했듯 화이자와 다른 곳들은 대선 이후에 백신을 발표했다"면서 "왜냐하면 그들은 이전에는 그렇게 할 용기가 없었기 때문"이라며 정치적 이유로 대선 이후에 발표됐다는 음모론을 제기한 바 있다.
+
+AP통신은 이달 들어 두 번째로 코로나19 후보와 관련한 전망이 밝은 소식이 나왔다고 보도했다.
+
+hanksong@yna.co.kr
+
+▶코로나19 속보는 네이버 연합뉴스[구독 클릭]
+▶[팩트체크]'英 휴대폰 비번 공개법' 어떤 내용?
+▶제보하기

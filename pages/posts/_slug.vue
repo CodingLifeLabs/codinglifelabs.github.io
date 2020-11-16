@@ -33,7 +33,7 @@
         </nav>
       </div>
     </aside>
-    <div class="md:col-span-3">
+    <div class="col-span-1 md:col-span-3">
       <h1 class="text-5xl font-bold">
         {{ post.title }}
       </h1>
@@ -43,7 +43,7 @@
           {{ formatDate(post.updatedAt) }}
         </p>
       </div>
-      <article>
+      <article class="prose lg:prose-lg">
         <nuxt-content ref="nuxtContent" :document="post" />
       </article>
       <span v-for="(tag, id) in post.tags" :key="id">
