@@ -45,7 +45,6 @@ export default {
   },
   methods: {
     clear () {
-      console.log('click...')
       this.searchQuery = ''
     }
   }
