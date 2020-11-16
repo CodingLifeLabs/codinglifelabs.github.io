@@ -18,7 +18,7 @@
             >
               <nuxt-link
                 :class="{
-                  'text-black-500 hover:text-black-600':
+                  'text-green-500 hover:text-black-600':
                     link.id === currentlyActiveToc,
                   'text-gray-500 hover:text-gray-700': link.id !== currentlyActiveToc
                 }"
@@ -37,6 +37,7 @@
       <h1 class="text-5xl font-bold">
         {{ post.title }}
       </h1>
+
       <div class="mt-3 mb-16 uppercase text-sm text-gray-500">
         <p class="mr-3">
           {{ formatDate(post.updatedAt) }}
@@ -45,6 +46,16 @@
       <article>
         <nuxt-content ref="nuxtContent" :document="post" />
       </article>
+      <span v-for="(tag, id) in post.tags" :key="id">
+        <NuxtLink :to="`/tag/${tags[tag].slug}`">
+          <span
+            class="text-white bg-green-400 truncate uppercase tracking-wider font-medium text-sm p-2 rounded mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
+          >
+            {{ tags[tag].name }}
+          </span>
+        </NuxtLink>
+      </span>
+
       <!-- prevNext component -->
       <PrevNext :prev="prev" :next="next" class="mt-8" />
     </div>
@@ -63,7 +74,16 @@ export default {
         .surround(params.slug)
         .fetch()
 
-      return { post, prev, next }
+      if (post.tags === undefined || post.tags === null) {
+        return { post, prev, next }
+      }
+      const tagsList = await $content('tags')
+        .only(['name', 'slug'])
+        .where({ name: { $containsAny: post.tags } })
+        .fetch()
+      const tags = Object.assign({}, ...tagsList.map(s => ({ [s.name]: s })))
+
+      return { post, tags, prev, next }
     } catch (err) {
       error({
         statusCode: 404,

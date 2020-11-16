@@ -4,9 +4,6 @@ description: Aliquam ultrices ex eget leo tinciduntAliquam ultrices ex eget leo 
 date: 2020-10-10
 img: image.jpg
 alt: my first blog post
-tags:
-  - test
-  - another
 ---
 
 ## This is a heading

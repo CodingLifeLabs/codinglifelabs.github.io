@@ -56,6 +56,8 @@ export default {
   nuxt: "is the best"
 };
 ```
+<br>
+<br>
 
 ```html[my-first-blog-post.md]
 <p>code styling is easy</p>

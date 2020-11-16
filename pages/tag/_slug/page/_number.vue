@@ -1,6 +1,13 @@
 <template>
   <div class="posts">
-    <h1>All Posts</h1>
+    <NuxtLink to="/">
+      <p class="hover:underline">
+        Back to All Posts
+      </p>
+    </NuxtLink>
+    <h3 class="mb-4 font-extrabold text-4xl">
+      Tag: {{ tag.name }}
+    </h3>
 
     <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto">
       <div v-for="post in posts" :key="post.path">
@@ -44,7 +51,15 @@
 export default {
   async asyncData ({ $content, params, error }) {
     const pageNo = parseInt(params.number)
-    const tenPosts = await $content('posts', { deep: true })
+
+    const tags = await $content('tags')
+      .where({ slug: { $contains: params.slug } })
+      .limit(1)
+      .fetch()
+    const tag = tags.length > 0 ? tags[0] : {}
+
+    const tenPosts = await $content('posts')
+      .where({ tags: { $contains: tag.name } })
       .only(['createdAt', 'description', 'path', 'title'])
       .sortBy('createdAt', 'desc')
       .limit(10)
@@ -57,11 +72,11 @@ export default {
 
     const nextPage = tenPosts.length === 10
     const posts = nextPage ? tenPosts.slice(0, -1) : tenPosts
-    return { nextPage, posts, pageNo }
+    return { nextPage, posts, pageNo, tag }
   },
   computed: {
     prevLink () {
-      return this.pageNo === 2 ? '/' : `/page/${this.pageNo - 1}`
+      return this.pageNo === 2 ? '/' : `/tag/${this.tag.name}/page/${this.pageNo - 1}`
     }
   },
   methods: {
