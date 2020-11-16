@@ -43,7 +43,7 @@
           {{ formatDate(post.updatedAt) }}
         </p>
       </div>
-      <article class="prose lg:prose-lg">
+      <article>
         <nuxt-content ref="nuxtContent" :document="post" />
       </article>
       <span v-for="(tag, id) in post.tags" :key="id">
