@@ -19,12 +19,6 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
   This is HTML inside markdown that has a class some classes
 </div>
 
-<info-box>
-  <template #info-box>
-    This is a vue component inside markdown using slots
-  </template>
-</info-box>
-
 ```js[nuxt.config.js]
 export default {
   nuxt: "is the best"
