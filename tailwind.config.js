@@ -8,7 +8,7 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [require("tailwindcss-markdown"),require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography")],
   screens: {
     xs: { max: '375px' }, // Mobile (iPhone 3 - iPhone XS Max).
     sm: { min: '576px', max: '897px' }, // Mobile (matches max: iPhone 11 Pro Max landscape @ 896px).
