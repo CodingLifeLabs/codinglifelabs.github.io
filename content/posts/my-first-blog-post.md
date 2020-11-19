@@ -22,7 +22,7 @@ Welcome to my first blog post using content module
 > in the future than in the past.
 
 트라비스 테스팅 중입니다.
-자동 deploy
+자동 deploy 테스트합니다.
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
