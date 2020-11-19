@@ -1,6 +1,6 @@
 ---
-title: travis CI gitHub 세팅시 주의할 점
-description: Nuxt-Content 로 Deploy 자동화시 이것을 놓치면 큰일납니다.
+title: Nuxt-Content 배포자동화시 주의할 점
+description: Nuxt-Content 모듈사용시 Travis로 Deploy 자동화시 이것을 놓치면 큰일납니다.
 tags:
   - nuxtjs
   - travis
@@ -8,22 +8,40 @@ tags:
 
 ## Travis 설정시 Node 버젼 주의하세요.
 
-> stable
+1. Node 버젼 설정
+
+   > stable
+
+2. 버젼 설정시 ' ' 사용 금지
 
 이렇게 설정안하면 삽질하게 됩니다.
 
 ```
-<article class="prose lg:prose-xl">
-  <h1>Garlic bread with cheese: What the science tells us</h1>
-  <p>
-    For years parents have espoused the health benefits of eating garlic bread with cheese to their
-    children, with the food earning such an iconic status in our culture that kids will often dress
-    up as warm, cheesy loaf for Halloween.
-  </p>
-  <p>
-    But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
-    springing up around the country.
-  </p>
-  <!-- ... -->
-</article>
+language: node_js
+node_js:
+  - stable
+
+cache:
+  directories:
+    - 'node_modules'
+
+branches:
+  only:
+    - master
+
+install:
+  - npm install
+  - npm run generate
+
+script:
+  - echo "Skipping tests"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_ACCESS_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  target-branch: gh-pages
+  local-dir: dist
+  on:
+    branch: master
 ```
