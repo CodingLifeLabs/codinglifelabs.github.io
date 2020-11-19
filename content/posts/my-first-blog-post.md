@@ -21,7 +21,7 @@ Welcome to my first blog post using content module
 > I’ve always been more interested.
 > in the future than in the past.
 
-트라비스 테스팅 중입니다.
+트라비스 테스팅.
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
