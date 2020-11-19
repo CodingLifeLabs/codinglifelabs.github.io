@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 grid md:grid-cols-4 mx-auto gap-4">
+  <div class="p-4 grid grid-cols-1 md:grid-cols-4 mx-auto gap-4">
     <aside ref="toc" class="col-span-1 lg:flex lg:flex-col hidden md:block">
       <div class="sticky top-0 mt-16">
         <p class="uppercase text-gray-800 text-xs font-black tracking-wider">
