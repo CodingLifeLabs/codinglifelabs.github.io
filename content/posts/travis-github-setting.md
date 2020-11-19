@@ -16,14 +16,14 @@ tags:
 
 이렇게 설정안하면 삽질하게 됩니다.
 
-```
+```yml[.travis.yml]
 language: node_js
 node_js:
   - stable
 
 cache:
   directories:
-    - 'node_modules'
+    - "node_modules"
 
 branches:
   only:

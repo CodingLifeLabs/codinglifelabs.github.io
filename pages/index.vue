@@ -2,10 +2,13 @@
   <div class="posts p-4">
     <div class="header">
       <p class="font-extrabold text-4xl md:text-6xl">
-        <span>CodingLifeLabs Blog</span>
+        <span>코딩라이프연구소</span>
       </p>
       <p class="mb-16">
-        A technology blog covering everything
+        A technology blog covering everything.
+      </p>
+      <p class="mb-16">
+        당신의 코딩생활을 응원합니다.
       </p>
     </div>
 
