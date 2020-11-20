@@ -54,6 +54,7 @@ export default {
   robots: {
     UserAgent: '*',
     Allow: '/',
+    Sitemap: 'https://codinglifelabs.github.io/sitemap.xml'
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
