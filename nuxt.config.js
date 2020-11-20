@@ -46,14 +46,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
-  robots: {
-    UserAgent: '*',
-    Allow: '/',
-    Sitemap: 'https://codinglifelabs.github.io/sitemap.xml'
-  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
