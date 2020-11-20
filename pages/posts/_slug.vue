@@ -34,7 +34,7 @@
       </div>
     </aside>
     <div class="col-span-1 md:col-span-3">
-      <h1 class="text-5xl font-bold text-gray-700">
+      <h1 class="text-5xl font-bold text-gray-800">
         {{ post.title }}
       </h1>
 

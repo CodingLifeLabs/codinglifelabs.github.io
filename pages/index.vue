@@ -1,14 +1,14 @@
 <template>
-  <div class="posts p-4">
-    <div class="header">
-      <p class="text-ray-700 font-bold text-4xl md:text-6xl">
+  <div class="posts p-8">
+    <div class="header mt-6">
+      <p class="text-ray-700 font-bold text-5xl md:text-6xl">
         <span>코딩라이프연구소</span>
       </p>
 
       <p class=" text-gray-600">
         A technology blog covering everything from Declarative Programming ( javascript, VueJS, Nuxt, Flutter, SwiftUI ... ).
       </p>
-      <p class="mb-16 text-gray-600">
+      <p class="mb-20 text-gray-600">
         Declarative 프로그래밍 시리즈를 연재할 계획입니다. 당신의 코딩생활을 응원합니다.
       </p>
     </div>
@@ -21,12 +21,12 @@
           {{ formatDate(post.createdAt) }}
         </p>
         <nuxt-link :to="post.path">
-          <h3 class="heading text-black-600 font-bold text-2xl">
+          <h3 class="text-lg text-gray-800 font-bold text-2xl">
             {{ post.title }}
           </h3>
         </nuxt-link>
 
-        <p class="mt-4 text-lg text-gray-600">
+        <p class="mt-4 text-md text-gray-600">
           {{ post.description }}
         </p>
         <nuxt-link :to="post.path">
