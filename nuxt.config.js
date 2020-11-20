@@ -78,6 +78,7 @@ export default {
 
   sitemap: {
     hostname: 'https://codinglifelabs.github.io',
+    gzip: true,
     routes() {
       return getRoutes();
     },
