@@ -75,7 +75,7 @@ export default {
   },
 
   sitemap: {
-    hostname: process.env.BASE_URL || 'https://codinglifelabs.github.io',
+    hostname: 'https://codinglifelabs.github.io',
     routes() {
       return getRoutes();
     },
