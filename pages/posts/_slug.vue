@@ -65,19 +65,6 @@
 import Prism from '~/plugins/prism'
 
 export default {
-  head() {
-    const post = this.post
-    return {
-      title: post.title,
-      meta: [
-        { 
-          hid: "description", 
-          name: "description", 
-          content: `${post.title} 포스트 페이지 입니다.`, // 보다 적절한 설명 필요
-        }
-      ]      
-    }
-  },
   async asyncData ({ params, error, $content }) {
     try {
       const post = await $content('posts', params.slug).fetch()
@@ -143,6 +130,19 @@ export default {
     formatDate (date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
+    }
+  },
+  head () {
+    const post = this.post
+    return {
+      title: post.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `${post.title} 포스트 페이지 입니다.` // 보다 적절한 설명 필요
+        }
+      ]
     }
   }
 }
