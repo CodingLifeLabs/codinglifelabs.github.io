@@ -1,10 +1,6 @@
 export default async () => {
-  let routes = [];
-  const { $content } = require('@nuxt/content')
-  if (posts === null || posts.length === 0)
-    posts = await $content('posts').fetch();
-  for (const post of posts) {
-    routes.push(`posts/${post.slug}`);
-  }
-  return routes;
+    const { $content } = require("@nuxt/content");
+    const files = await $content({ deep: true }).only(["path"]).fetch();
+  
+    return files.map((file) => (file.path === "/index" ? "/" : file.path));
   };
