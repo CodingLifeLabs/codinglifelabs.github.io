@@ -48,8 +48,13 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxtjs/google-adsense'
   ],
+
+  'google-adsense': {
+    id: 'ca-pub-9541881212090927'
+  },
 
   robots: {
     UserAgent: '*',
