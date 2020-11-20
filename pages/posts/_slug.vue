@@ -46,7 +46,7 @@
       <article class="prose lg:prose-lg xl:prose-2xl">
         <nuxt-content ref="nuxtContent" :document="post" />
       </article>
-      <span v-for="(tag, id) in post.tags" :key="id">
+      <span class="mt-4" v-for="(tag, id) in post.tags" :key="id">
         <NuxtLink :to="`/tag/${tags[tag].slug}`">
           <span
             class="text-white bg-green-400 truncate uppercase tracking-wider font-medium text-sm p-2 rounded mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
