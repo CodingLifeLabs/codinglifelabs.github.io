@@ -14,6 +14,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '코딩라이프연구소 - A technology blog covering everything' },
       { name: 'google-site-verification', content: 'pGPwUnb0GIMq5VumbT-UkwxbkFLRKpB4tFOVGh6ZPfk' },
+      { name: 'naver-site-verification', content: '29fc46a35be5db2b5bec3c81f34b25e7f6c75582' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
