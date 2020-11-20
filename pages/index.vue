@@ -68,24 +68,6 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
-  },
-  head () {
-    return {
-      title: 'Nuxt blog',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Cool nuxt blog'
-        }
-      ],
-      link: [
-        {
-          rel: 'canonical',
-          href: 'https://nuxt-blog.com/'
-        }
-      ]
-    }
   }
 }
 </script>
