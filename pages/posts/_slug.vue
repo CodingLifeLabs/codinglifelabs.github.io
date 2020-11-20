@@ -34,7 +34,7 @@
       </div>
     </aside>
     <div class="col-span-1 md:col-span-3">
-      <h1 class="text-5xl font-bold text-gray-800">
+      <h1 class="text-4xl font-bold text-gray-800">
         {{ post.title }}
       </h1>
 
@@ -46,7 +46,7 @@
       <article class="prose lg:prose-lg xl:prose-2xl">
         <nuxt-content ref="nuxtContent" :document="post" />
       </article>
-      <span class="mt-4" v-for="(tag, id) in post.tags" :key="id">
+      <span v-for="(tag, id) in post.tags" :key="id" class="mt-8 inline-block">
         <NuxtLink :to="`/tag/${tags[tag].slug}`">
           <span
             class="text-white bg-green-400 truncate uppercase tracking-wider font-medium text-sm p-2 rounded mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
@@ -155,10 +155,10 @@ export default {
 }
 .nuxt-content h2 {
   font-weight: bold;
-  font-size: 38px;
+  font-size: 32px;
 }
 .nuxt-content h3 {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
 }
 </style>
