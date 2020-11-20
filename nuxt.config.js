@@ -3,9 +3,9 @@ import getRoutes from "./utils/getRoutes";
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  router: {
-    base: '/codinglifelabs.github.io/'
-  },
+  // router: {
+  //   base: '/codinglifelabs.github.io/'
+  // },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'DevLifeLabs Blog',
