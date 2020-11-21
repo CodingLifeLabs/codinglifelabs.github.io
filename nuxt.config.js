@@ -1,3 +1,4 @@
+/* eslint-disable */
 import getRoutes from "./utils/getRoutes";
 
 export default {
@@ -23,7 +24,6 @@ export default {
       {
         "data-ad-client": "ca-pub-9541881212090927",
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-        async: true,
       },
     ],
   },

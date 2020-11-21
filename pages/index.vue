@@ -23,7 +23,7 @@
           {{ formatDate(post.createdAt) }}
         </p>
         <nuxt-link :to="post.path">
-          <h3 class="text-lg text-gray-800 font-bold text-2xl">
+          <h3 class="text-gray-800 font-bold text-2xl">
             {{ post.title }}
           </h3>
         </nuxt-link>
