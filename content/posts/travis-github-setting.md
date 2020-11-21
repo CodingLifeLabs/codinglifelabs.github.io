@@ -4,6 +4,7 @@ description: Nuxt-Content 모듈사용시 Travis로 Deploy 자동화시 이것�
 tags:
   - nuxtjs
   - travis
+createdAt: "2020-11-21"
 ---
 
 ## Travis 설정시 Node 버젼 주의하세요.
