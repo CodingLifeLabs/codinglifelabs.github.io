@@ -50,14 +50,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    '@nuxtjs/google-adsense'
   ],
-
-  'google-adsense': {
-    id: 'ca-pub-9541881212090927',
-    pageLevelAds: true,
-    test: true
-  },
 
   robots: {
     UserAgent: '*',
