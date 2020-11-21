@@ -19,10 +19,10 @@ script:
 
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_ACCESS_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
-  target-branch: gh-pages
-  local-dir: dist
-  keep-history: true
+  skip_cleanup: true
+  github_token: $GITHUB_ACCESS_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  target_branch: gh-pages
+  local_dir: dist
+  keep_history: true
   on:
     branch: main
