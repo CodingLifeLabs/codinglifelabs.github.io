@@ -56,6 +56,7 @@ export default {
   'google-adsense': {
     id: 'ca-pub-9541881212090927',
     pageLevelAds: true,
+    test: true
   },
 
   robots: {
