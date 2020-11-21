@@ -22,10 +22,11 @@ export default {
     ],
     script: [
       {
-        "data-ad-client": "ca-pub-9541881212090927",
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-      },
-    ],
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        'data-ad-client': 'ca-pub-9541881212090927',
+        async: true
+      }
+    ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
