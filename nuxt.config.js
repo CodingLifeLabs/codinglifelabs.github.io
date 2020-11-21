@@ -19,13 +19,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    script: [
-      {
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-        'data-ad-client': 'ca-pub-9541881212090927',
-        async: true
-      }
     ]
   },
 
@@ -56,7 +49,10 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-9541881212090927'
+    }]
   ],
 
   robots: {
