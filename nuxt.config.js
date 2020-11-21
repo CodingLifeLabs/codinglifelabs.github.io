@@ -18,7 +18,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      {
+        "data-ad-client": "ca-pub-9541881212090927",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        async: true,
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -48,13 +55,8 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-    '@nuxtjs/google-adsense'
+    '@nuxtjs/robots'
   ],
-
-  'google-adsense': {
-    id: 'ca-pub-9541881212090927'
-  },
 
   robots: {
     UserAgent: '*',
