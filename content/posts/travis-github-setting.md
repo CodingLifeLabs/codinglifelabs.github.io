@@ -1,4 +1,6 @@
 ---
+# createdAt: "2020-11-19"
+# updatedAt: "2020-11-19"
 title: Nuxt-Content 배포자동화시 주의할 점
 description: Nuxt-Content 모듈사용시 Travis로 Deploy 자동화시 이것을 놓치면 큰일납니다.
 tags:

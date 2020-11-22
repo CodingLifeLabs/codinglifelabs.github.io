@@ -1,5 +1,6 @@
 ---
 # createdAt: "2020-11-19"
+# updatedAt: "2020-11-19"
 title: My First Blog Post
 description: Learning how to use @nuxt/content to create a blog
 tags:
