@@ -159,7 +159,7 @@ export default {
 </script>
 
 <style>
-.nuxt-content p {
+/* .nuxt-content p {
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -170,5 +170,5 @@ export default {
 .nuxt-content h3 {
   font-weight: bold;
   font-size: 28px;
-}
+} */
 </style>
