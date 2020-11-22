@@ -1,10 +1,10 @@
 ---
+# createdAt: "2020-11-19"
 title: My First Blog Post
 description: Learning how to use @nuxt/content to create a blog
 tags:
   - nuxtjs
   - javascript
-createdAt: "2020-11-19"
 ---
 
 Welcome to my first blog post using content module
