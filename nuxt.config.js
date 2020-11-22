@@ -20,6 +20,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '코딩라이프연구소 - A technology blog covering everything' },
+      { hid: 'og:type', property: 'og:type', contnet: 'website' },
+      { hid: 'og:url', property: 'og:url', content: process.env.BASE_URL},
       { name: 'google-site-verification', content: 'pGPwUnb0GIMq5VumbT-UkwxbkFLRKpB4tFOVGh6ZPfk' },
       { name: 'naver-site-verification', content: '29fc46a35be5db2b5bec3c81f34b25e7f6c75582' },
     ],

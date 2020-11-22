@@ -141,7 +141,17 @@ export default {
           hid: 'description',
           name: 'description',
           content: `${post.title} 포스트 페이지 입니다.` // 보다 적절한 설명 필요
-        }
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${post.title} 포스트 페이지 입니다.` // 보다 적절한 설명 필요
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: post.description
+        },
       ]
     }
   }
