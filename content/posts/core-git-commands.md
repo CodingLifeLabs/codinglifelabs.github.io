@@ -1,9 +1,9 @@
 ---
+createdAt: "2020-11-22"
 title: Core Git 명령어 정리
 description: 실제 서비스 개발하면서 맨날 까먹는 Core git 명령어 핵심요약.
 tags:
   - git
-createdAt: "2020-11-22"
 ---
 
 ## 1. Git의 4가지 영역
