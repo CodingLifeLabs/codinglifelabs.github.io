@@ -4,16 +4,27 @@ description: Nuxt-Content 모듈사용시 Travis로 Deploy 자동화시 이것�
 tags:
   - nuxtjs
   - travis
-createdAt: "2020-11-21"
 ---
 
-## Travis 설정시 Node 버젼 주의하세요.
+## 1.Travis .travis.yml 설정시 주의 할점
 
-1. Node 버젼 설정
+### 1.1 Node 버젼 설정
 
-   > stable
+> stable
 
-2. 버젼 설정시 ' ' 사용 금지
+Node 8에서는 nuxt generate 가 어떤 이유에서 인지 실행이 되지 않습니다. 반드시 stable 로 설정해주세요.
+( version 설정시 ' ' String 표시 금지)
+
+###. 1.2 Travis timezone 설정
+
+> before_install:
+>
+> - export TZ=Asia/Seoul
+> - date
+
+Nuxt-Content 로 markdown 작성시 Local time과 Travis 서버 Timezone이 달라서 created date 가 달라지게 됩니다. 이를 해결하려면 timezone 설정을 반드시 해주세요.
+
+## 결론
 
 이렇게 설정안하면 삽질하게 됩니다.
 
@@ -28,8 +39,11 @@ cache:
 
 branches:
   only:
-    - master
+    - main
 
+before_install:
+  - export TZ=Asia/Seoul
+  - date
 install:
   - npm install
   - npm run generate
@@ -39,10 +53,11 @@ script:
 
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_ACCESS_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
-  target-branch: gh-pages
-  local-dir: dist
+  skip_cleanup: true
+  github_token: $GITHUB_ACCESS_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  target_branch: gh-pages
+  local_dir: dist
+  keep_history: true
   on:
-    branch: master
+    branch: main
 ```
