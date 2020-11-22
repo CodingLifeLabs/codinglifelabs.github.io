@@ -151,7 +151,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content: post.description
-        },
+        }
       ]
     }
   }
