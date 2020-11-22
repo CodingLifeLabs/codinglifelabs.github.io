@@ -9,6 +9,12 @@ export default {
   // },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    script: [
+      {
+        "data-ad-client": "ca-pub-9541881212090927",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      },
+    ],
     title: 'DevLifeLabs Blog',
     meta: [
       { charset: 'utf-8' },
@@ -50,6 +56,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
+    ['nuxt-canonical', { baseUrl: 'https://codinglifelabs.github.io' }]
   ],
 
   robots: {
