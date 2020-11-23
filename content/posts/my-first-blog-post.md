@@ -8,19 +8,17 @@ tags:
   - javascript
 ---
 
-Welcome to my first blog post using content module
+## 코딩라이프연구소를 시작해보려합니다.
 
-1. First line
-   - 하이 - 두번째 하이
-2. Second line
-3. Third line
-4. Last line
+코딩라이프를 즐기시는 분들에게 도움이 되고자
+조그만하게 블로그를 시작해보려고 합니다.
+
+코딩라이프에 필요한 다양한 라이프 스타일, 내용, 정보들을
+연재할 계획입니다.
 
 # 마크다운 문법 사용
 
 ## 2. This is a heading
-
-승재님이 말씀하사
 
 > I’ve always been more interested.
 > in the future than in the past.
