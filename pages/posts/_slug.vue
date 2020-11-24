@@ -40,7 +40,7 @@
 
       <div class="mt-3 mb-16 uppercase text-sm text-gray-500">
         <p class="mr-3">
-          {{ formatDate(post.updatedAt) }}
+          last updated , {{ formatDate(post.updatedAt) }}
         </p>
       </div>
       <article class="prose lg:prose-lg xl:prose-xl">
