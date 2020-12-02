@@ -7,7 +7,7 @@ tags:
   - dart
 ---
 
-## Lists (also known as Arrays)
+## 1. Lists (also known as Arrays)
 
 ```dart
 void main() {
@@ -22,7 +22,7 @@ void main() {
 }
 ```
 
-## List methods
+## 2. List methods
 
 ```dart
 void main() {
@@ -39,7 +39,7 @@ void main() {
 }
 ```
 
-## type annotations with lists
+## 3. type annotations with lists
 
 ```dart
 void main() {
@@ -49,7 +49,7 @@ void main() {
 }
 ```
 
-## Using var, final, const with lists
+## 4. Using var, final, const with lists
 
 ```dart
 void main() {
@@ -66,7 +66,7 @@ void main() {
 }
 ```
 
-## Set
+## 5. Set
 
 - Sets are collections of unique values
 - Lists can contain duplicate values
@@ -88,7 +88,7 @@ void main() {
 }
 ```
 
-## Maps (dictionaries)
+## 6. Maps (dictionaries)
 
 - collection of key-value pairs.
 
@@ -102,7 +102,7 @@ void main() {
 }
 ```
 
-## The as operator
+## 7. The as operator
 
 ```dart
 void main() {
@@ -115,7 +115,7 @@ void main() {
 }
 ```
 
-## Iterating on maps
+## 8. Iterating on maps
 
 ```dart
 void main() {
@@ -135,7 +135,7 @@ void main() {
 }
 ```
 
-## collection-if
+## 9. collection-if
 
 ```dart
 void main() {
@@ -154,7 +154,7 @@ void main() {
 }
 ```
 
-## collection-for
+## 10. collection-for
 
 ```dart
 void main() {
@@ -176,7 +176,7 @@ void main() {
 }
 ```
 
-## Spreads
+## 11. Spreads
 
 ```dart
 void main() {
@@ -199,7 +199,7 @@ void main() {
 
 - collection-if, collection-for & spreads make it easier to declare collections of values.
 
-## Copying collections
+## 12. Copying collections
 
 ```dart
 void main() {
