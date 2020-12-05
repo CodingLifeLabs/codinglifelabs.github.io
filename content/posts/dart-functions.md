@@ -116,7 +116,7 @@ void main() {
 }
 ```
 
-## Inner Functions
+## 9. Inner Functions
 
 ```dart
 const global = 15;
@@ -134,7 +134,7 @@ void main() {
 }
 ```
 
-## Global mutable state & functions with side effects
+## 10. Global mutable state & functions with side effects
 
 - pure function : always produces the same result when called with the same arguments
 
