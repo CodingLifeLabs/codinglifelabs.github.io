@@ -82,8 +82,8 @@ void foo(int a, [int b = 2]) {
 
 - just return one statement line
 
-`int sum(int x, int y) => x + y;`
-`void printSum(int x, int y) => print(x + y);`
+- `int sum(int x, int y) => x + y;`
+- `void printSum(int x, int y) => print(x + y);`
 
 ## 8. Global and lexical scope
 
@@ -134,11 +134,11 @@ void main() {
 }
 ```
 
-# Global mutable state & functions with side effects
+## Global mutable state & functions with side effects
 
 - pure function : always produces the same result when called with the same arguments
 
 - doesn't mutate any variables outside its own scope
 
 - Adding mutable global state is one of the worse thins you can do.
-  `var counter = 1;`
+  - `var counter = 1;`
