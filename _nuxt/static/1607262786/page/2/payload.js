@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/page/2", {data:[{nextPage:false,posts:[{description:"Learning how to use @nuxt\u002Fcontent to create a blog",createdAt:"2020-11-18T00:00:00.000Z",title:"My First Blog Post",path:"\u002Fposts\u002Fmy-first-blog-post"}],pageNo:2}],fetch:[],mutations:void 0});
