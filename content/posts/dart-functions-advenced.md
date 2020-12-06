@@ -143,3 +143,35 @@ void main() {
 ```
 
 - Use Where and firstWhere to filter and find items inside a collection. (predicate)
+
+## 9. The reduce method
+
+```dart
+void main() {
+    const list = [1,2,3,4];
+    final sum = list.reduce((value,element)=> value + element);
+    print(sum);
+    // value   : 1 3 6 10
+    // element : 2 3 4
+}
+```
+
+## 10. Combining functional operators
+
+```dart
+void main() {
+    const emails = [
+        'abc@abc.com',
+        'me@example.co.uk',
+        'john@gmail.com',
+        'katy@yahoo.com',
+    ];
+    const knownDomains = ['gmail.com', 'yahoo.com'];
+    final unknownDomains = getUnknownDomains(emails, knownDomains);
+        print(unknownDomains);
+
+    Iterable<String> getUnknownDomains(List<String> emails, List<String> knownDomains) => emails
+        .map((email) => email.split('@').last)
+        .where((domain) => !knownDomains.contains(domain));
+}
+```
